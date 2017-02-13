@@ -1,0 +1,19 @@
+{
+  "name": "ng2-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaybekster/ng2-back.git"
+  },
+  "author": "Mikhail Tsyplakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaybekster/ng2-back/issues"
+  },
+  "homepage": "https://github.com/jaybekster/ng2-back#readme"
+}
