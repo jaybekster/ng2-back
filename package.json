@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,30 @@
   "bugs": {
     "url": "https://github.com/jaybekster/ng2-back/issues"
   },
-  "homepage": "https://github.com/jaybekster/ng2-back#readme"
+  "homepage": "https://github.com/jaybekster/ng2-back#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/router": "^3.4.9"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@angular/platform-browser-dynamic": "^2.4.9",
+    "@types/jasmine": "^2.5.43",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.0.4",
+    "core-js": "^2.4.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^2.0.2",
+    "phantomjs-prebuilt": "^2.1.14",
+    "raw-loader": "^0.5.1",
+    "rxjs": "^5.2.0",
+    "typescript": "^2.0.10",
+    "webpack": "^2.2.1",
+    "zone.js": "^0.7.7"
+  }
 }
